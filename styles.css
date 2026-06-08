@@ -1,0 +1,51 @@
+.number{
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+}
+
+.column1{
+    display:flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    border: 2px solid black;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: column;
+}
+
+.equal{
+    display: flex;
+}
+
+.column1-top{
+    display: flex;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    display: flex;
+    padding: 20px;
+}
