@@ -1,51 +1,74 @@
-.number{
-    flex-wrap: wrap;
+body{
     display: flex;
-    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 20px;
+}
+.number{
+    display: flex;
+    min-height: 70vh;
+    border: 2px solid black;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .column1{
     display:flex;
     flex-direction: column;
+    gap: 80px;
 }
 .first{
     display: flex;
     flex-direction: column;
+    gap: 80px;
 }
 
 .second{
     display: flex;
     flex-direction: column;
+    gap: 80px;
 }
 
 .third{
     display: flex;
     flex-direction: column;
+    gap: 80px;
 }
 
-div{
-    border: 2px solid black;
-}
+
 
 .fourth{
     display: flex;
     flex-direction: column;
+    gap: 80px;
 }
 
-.equal{
-    display: flex;
-}
+
 
 .column1-top{
     display: flex;
+    gap: 80px;
 }
 
-.calc{
-    display: flex;
-    flex-direction: column;
-}
 
 .display{
     display: flex;
     padding: 20px;
+    min-height: 20vh;
+    border: 2px solid black;
+
 }
+
+.other{
+    display: flex;
+    gap: 80px;
+}
+
+.zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .equal, .clear, .plus, .minus, .multiply, .division{
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 15px;
+}
+
